@@ -20,7 +20,7 @@
     "busy",
     "work",
     "console",
-    "random",  
+    "random",
     "fun",
     "terminal"
   ],
@@ -29,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/marvelefe/lookBusy/issues"
   },
-  "homepage": "https://github.com/marvelefe/lookBusy#readme"
+  "homepage": "https://github.com/marvelefe/lookBusy#readme",
+  "dependencies": {
+    "boganipsum": "^0.2.0",
+    "cli-progress": "^3.9.1",
+    "cli-spinners": "^2.6.0",
+    "colors": "^1.4.0",
+    "lodash": "^4.17.21"
+  }
 }
