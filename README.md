@@ -30,11 +30,15 @@ This package will fake your activity by printing random messages into the Termin
 ## How to use?
 
   
+```
+npm install -g lazyterminal
+```
 
-> sudo npm install -g lazyterminal
+and then
 
-> npm run lazyterminal
-  
+```
+npm run lazyterminal
+```
 
 ![Functionality](https://rawgit.com/ondrek/bebusy.js/master/graphs/gollum.jpg)
 
