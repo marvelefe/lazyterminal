@@ -1,6 +1,6 @@
 {
   "name": "lazyterminal",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This package will fake your activity by printing random messages into the Terminal and make it look like you're compiling, installing or debugging some important sh*t",
   "main": "app.js",
   "scripts": {
