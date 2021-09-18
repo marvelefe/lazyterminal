@@ -32,8 +32,7 @@
   "homepage": "https://github.com/marvelefe/lookBusy#readme",
   "dependencies": {
     "boganipsum": "^0.2.0",
-    "cli-progress": "^3.9.1",
-    "cli-spinners": "^2.6.0",
+    "cli-progress": "^3.9.1", 
     "colors": "^1.4.0",
     "lodash": "^4.17.21"
   }
