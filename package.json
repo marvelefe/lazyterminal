@@ -1,0 +1,33 @@
+{
+  "name": "lookbusy",
+  "version": "1.0.0",
+  "description": "This package will fake your activity by printing random messages into the Terminal and make it look like you're compiling, installing or debugging some important sh*t",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvelefe/lookBusy.git"
+  },
+  "keywords": [
+    "lookbusy",
+    "procrastination",
+    "fakebusy",
+    "lazy",
+    "fakebusy",
+    "bebusy",
+    "busy",
+    "work",
+    "console",
+    "random",  
+    "fun",
+    "terminal"
+  ],
+  "author": "Efe Omoregie (http://github.com/marvelefe/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marvelefe/lookBusy/issues"
+  },
+  "homepage": "https://github.com/marvelefe/lookBusy#readme"
+}
