@@ -14,7 +14,7 @@ var readline = require("readline");
  *
  * @return object
 */
-const lookBusy = {  
+const lazyterminal = {  
 
     /**
      * All possible answers to user prompt
@@ -339,5 +339,5 @@ const lookBusy = {
 
 
 //Of course, we need to export :)
-module.exports =  lookBusy
+module.exports =  lazyterminal
 
