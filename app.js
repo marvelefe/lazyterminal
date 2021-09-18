@@ -1,3 +1,3 @@
 //Main Entrypoint
-const lookBusy = require("./lookbusy");
-lookBusy.startApp();
+const lazyterminal = require("./lazyterminal");
+lazyterminal.startApp();
