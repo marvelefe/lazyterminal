@@ -1,18 +1,18 @@
 {
-  "name": "lookbusy",
+  "name": "lazyterminal",
   "version": "1.0.0",
   "description": "This package will fake your activity by printing random messages into the Terminal and make it look like you're compiling, installing or debugging some important sh*t",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lookbusy": "node app.js"
+    "lazyterminal": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marvelefe/lookBusy.git"
+    "url": "git+https://github.com/marvelefe/lazyterminal.git"
   },
   "keywords": [
-    "lookbusy",
+    "lazyterminal",
     "procrastination",
     "fakebusy",
     "lazy",
@@ -28,9 +28,9 @@
   "author": "Efe Omoregie (http://github.com/marvelefe/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marvelefe/lookBusy/issues"
+    "url": "https://github.com/marvelefe/lazyterminal/issues"
   },
-  "homepage": "https://github.com/marvelefe/lookBusy#readme",
+  "homepage": "https://github.com/marvelefe/lazyterminal#readme",
   "dependencies": {
     "boganipsum": "^0.2.0",
     "cli-progress": "^3.9.1", 
