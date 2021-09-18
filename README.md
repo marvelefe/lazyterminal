@@ -1,7 +1,7 @@
   
 # lazyterminal
 
-This package will fake your activity by printing random messages into the Terminal and make it look like you're compiling, installing or debugging some important sh*t
+This package will fake your activity by printing random messages into the Terminal and make it look like you're compiling, installing or debugging some important stuff
 
 
 ## Here's what it looks like?
