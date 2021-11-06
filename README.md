@@ -6,7 +6,7 @@ This package will fake your activity by printing random messages into the Termin
 
 ## Here's what it looks like?
 
-![Functionality](https://storage.googleapis.com/ganar-images/avatars/Screen%20Recording%202021-11-06%20at%2016.51.04%20(1).gif)
+![Functionality](https://storage.googleapis.com/ganar-images/avatars/gif.gif)
 
    
   
