@@ -1,7 +1,7 @@
   
 # lazyterminal
 
-This package will fake your activity by printing random messages into the Terminal and make it look like you're compiling, installing or debugging some important sh*t
+This package will fake your activity by printing random messages into the Terminal and make it look like you're compiling, installing or debugging some important stuff
 
 
 ## Here's what it looks like?
@@ -29,12 +29,13 @@ This package will fake your activity by printing random messages into the Termin
 
 ## How to use?
 
-  
+```
+git clone https://github.com/marvelefe/lazyterminal.git
+```
 
-> git clone https://github.com/marvelefe/lazyterminal.git
-
-> npm run lazyterminal
-  
+```
+npm run lazyterminal
+```
 
 ![Functionality](https://rawgit.com/ondrek/bebusy.js/master/graphs/gollum.jpg)
 
