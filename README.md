@@ -41,4 +41,4 @@ npm run lazyterminal
 
   
 
-Coded by  [Efe Omoregie](https://efe.ng)  
+By  [Efe Omoregie](https://efe.ng)  
