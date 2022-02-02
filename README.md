@@ -34,7 +34,7 @@ git clone https://github.com/marvelefe/lazyterminal.git
 ```
 
 ```
-cd lazyterminal && npm run lazyterminal
+cd lazyterminal && npm i && npm run lazyterminal
 ```
 
 ![Functionality](https://rawgit.com/ondrek/bebusy.js/master/graphs/gollum.jpg)
