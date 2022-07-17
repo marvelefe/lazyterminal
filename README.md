@@ -40,5 +40,3 @@ cd lazyterminal && npm i && npm run lazyterminal
 ![Functionality](https://rawgit.com/ondrek/bebusy.js/master/graphs/gollum.jpg)
 
   
-
-By  [Efe Omoregie](https://efe.ng)  
