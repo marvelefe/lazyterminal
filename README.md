@@ -6,7 +6,7 @@ This package will fake your activity by printing random messages into the Termin
 
 ## Here's what it looks like?
 
-![Functionality](https://storage.googleapis.com/ganar-images/avatars/gif3.gif)
+![alt text](<2024-05-01 10-34-27.gif>)
 
    
   
@@ -30,11 +30,11 @@ This package will fake your activity by printing random messages into the Termin
 ## How to use?
 
 ```
-git clone https://github.com/marvelefe/lazyterminal.git
+git clone https://github.com/Hoai2801/lazy-terminal.git
 ```
 
 ```
-cd lazyterminal && npm i && npm run lazyterminal
+cd lazy-terminal && npm i && npm run lazyterminal
 ```
 
 ![Functionality](https://rawgit.com/ondrek/bebusy.js/master/graphs/gollum.jpg)

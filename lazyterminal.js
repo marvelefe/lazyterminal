@@ -66,7 +66,8 @@ const lazyterminal = {
      * @return function
     */
     startWorking: function(speed) {
-        var type = lodash.sample(["line", "progress"]); 
+        // make line has more chance to be shown
+        var type = lodash.sample(["line", "progress", "line", "line", "line"]); 
         type == "line" ? this.showLine(speed) : this.showProgress(speed); 
     },
 
@@ -97,7 +98,6 @@ const lazyterminal = {
      * @return function
     */
     showProgress: function(speed){ 
-        theme = 'shades-classic';
 
         const bar = new progress.SingleBar({
 
@@ -106,13 +106,16 @@ const lazyterminal = {
         bar.start(100, meter); 
         
 
-        setInterval(() => {
-            bar.update(meter += lodash.random(10, 20)); 
-        }, lodash.random(50, 100)); 
- 
-        setTimeout(() => {
-            bar.stop();
-            this.startWorking(speed);
+        const intervalId = setInterval(() => {
+            if (meter >= 100) {
+                clearInterval(intervalId);
+                bar.stop();
+                this.startWorking(speed);
+            }
+            let add = lodash.random(10, 40);
+            // make sure we don't go over 100
+            add = meter + add <= 100 ? add : 1;
+            bar.update(meter += add);
         }, this.getShortTime(speed));
         
     },
@@ -229,8 +232,15 @@ const lazyterminal = {
     */
     getModule: function(){ 
         var modules = [
-            "npm", "install", "download", "parse", "ok", "verb", "WARN", "info"
-        ]; 
+            "\u001b[32mnpm\u001b[0m",      // Green color for "npm"
+            "\u001b[33minstall\u001b[0m",  // Yellow color for "install"
+            "\u001b[34mdownload\u001b[0m", // Blue color for "download"
+            "\u001b[35mparse\u001b[0m",    // Purple color for "parse"
+            "\u001b[36mok\u001b[0m",       // Cyan color for "ok"
+            "\u001b[33mverb\u001b[0m",     // Yellow color for "verb"
+            "\u001b[31mWARN\u001b[0m",     // Red color for "WARN"
+            "\u001b[32minfo\u001b[0m"      // Green color for "info"
+        ];
         return lodash.sample(modules); 
     },
 
