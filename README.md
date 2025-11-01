@@ -1,42 +1,36 @@
-  
+
+> ### ⚠️ Satire Disclaimer
+>
+> This project is purely for fun and satire. I do not actually recommend pretending to work... but if you do, this might help 😄
+
 # lazyterminal
 
-This package will fake your activity by printing random messages into the Terminal and make it look like you're compiling, installing or debugging some important stuff at work
+This package fakes "busy developer" activity by printing random messages into your Terminal — making it look like you're compiling, installing, or debugging some very important stuff.
 
-
-## Here's what it looks like?
+## What does it look like?
 
 ![Functionality](https://storage.googleapis.com/ganar-images/avatars/gif3.gif)
 
-   
-  
+---
 
-## You shall use this plugin, when you ..
+## When to use this plugin
 
-.. are a lazy impostor whose underqualified for the job
+- When you *look* productive while brainstorming life choices
+- When a deadline is approaching faster than your motivation
+- When you just need your screen to look like “serious engineering”
 
-.. have a project deadline straight ahead
+![Meme](https://memegenerator.net/img/instances/65829788.jpg)
 
-.. read a lot of blogs about productivity while procrastinating
+---
 
-  
+## How to use
 
-![what if I told you, you are useless piece of shit?](https://memegenerator.net/img/instances/65829788.jpg)
-
-  
-  
-  
-
-## How to use?
-
-```
+```bash
 git clone https://github.com/marvelefe/lazyterminal.git
 ```
 
-```
+```bash
 cd lazyterminal && npm i && npm run lazyterminal
 ```
 
 ![Functionality](https://rawgit.com/ondrek/bebusy.js/master/graphs/gollum.jpg)
-
-  
