@@ -15,7 +15,7 @@ This package fakes "busy developer" activity by printing random messages into yo
 
 ## When to use this plugin
 
-- When you *look* productive while brainstorming life choices
+- Want to *look* productive while brainstorming life choices
 - When a deadline is approaching faster than your motivation
 - When you just need your screen to look like “serious engineering”
 
